@@ -41,4 +41,4 @@ O arquivo README do repositório deve conter as informações do estudante, o li
 
 ## Prazo de Entrega:
 
-As entregas serão consideradas até as 23h59 do dia 12/08/2023. Será considerado o último commit antes do prazo de entrega.
+As entregas serão consideradas até as 23h59 do dia 13/08/2023. Será considerado o último commit antes do prazo de entrega.

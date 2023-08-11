@@ -7,7 +7,7 @@ Considerar cada uma das seguintes datas de entrega e as respectivas descrições
 
 ## Calendário de Entregas:
 
-- **[Atividade 1](./ponderada1/README.md):** 12/08/2023 (23h59) - Será considerado o último commit antes do prazo de entrega.
+- **[Atividade 1](./ponderada1/README.md):** 13/08/2023 (23h59) - Será considerado o último commit antes do prazo de entrega.
 - Atividade 2: TODO
 - Atividade 3: TODO
 - Atividade 4: TODO
