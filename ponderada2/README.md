@@ -34,6 +34,8 @@ A escolha de uma das estratégias está totalmente vinculada a experiência que 
 
 O projeto consiste em um TODO List, onde o usuário deve se cadastrar no sistema (considerar o usuário **teste**, com a senha **teste123**) para ter acesso a suas notas e adicionar novas notas. ***NÃO É NECESSÁRIO REALIZAR A IMPLEMENTAÇÃO DE CADASTRO DE USUÁRIOS OU TELA/FUNCIONALIDADE DE RECUPERAÇÃO DE SENHA.***
 
+A imagem do banco de dados que será utilizada pode ser de qualquer banco de dados **RELACIONAL**. A aplicação pode ser desenvolvida em Python ou em JavaScript.
+
 Exemplos de aplicação do tipo TODO List:
 - [todoist](https://todoist.com/pt-BR)
 - [Any.do](https://www.any.do/en)
