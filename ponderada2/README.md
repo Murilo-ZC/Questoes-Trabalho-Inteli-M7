@@ -45,8 +45,24 @@ Exemplos de aplicação do tipo TODO List:
 
 ## Padrão de qualidade
 
-***TODO***
+Os pontos que serão avaliados na entrega do projeto:
+1. ***(Até 1.0 ponto)*** Construção do dockerfile: o arquivo contem todas as informações necessárias para a construção da imagem dos containers;
+2. ***(Até 1.0 ponto)*** Publicação das Imagens no DockerHub: todas as imagens construídas para a aplicação estão publicadas no DockerHub;
+3. ***(Até 1.0 ponto)*** Construção do docker-compose: o arquivo contem todas as informações necessárias para lançar os containers da aplicação;
+4. ***(Até 1.0 ponto)*** A arquitetura da solução foi apresentada: a arquitetura utilizada foi apresentada e sua escolha foi justificada pelo estudante;
+5. ***(Até 1.0 ponto)*** A aplicação foi executada em um conjunto de containers Docker;
+6. ***(Até 1.0 ponto)*** As instruções no arquivo README foram suficientes para executar a aplicação: as instruções no arquivo README foram suficientes para executar a aplicação APENAS SEGUINDO OS PASSOS CONTIDOS NO DOCUMENTO;
+7. ***(Até 1.0 ponto)*** A aplicação apresenta uma tela de login;
+8. ***(Até 1.0 ponto)*** A aplicação apresenta uma tela com as notas enviadas pelo usuário;
+9. ***(Até 1.0 ponto)*** A aplicação protege as rotas da tela de login para apresentar elas apenas para usuário logados no sistema;
+10. ***(Até 1.0 ponto)*** A estrutura de pastas utilizada no projeto foi apresentada no arquivo README do projeto.
+
 
 ## Instruções:
 
-***TODO***
+A entrega do projeto deve ser realizada dentro de um repositório público do Github do estudante. Ao entregar a atividade no sistema da instituição, o estudante deve colocar o link para seu repositório.
+O arquivo README do repositório deve conter as informações do estudante, o link para o Dockerhub onde a imagem está hospedada, o que foi desenvolvido (uma breve descrição de até 200 palavras) e o procedimento necessário para executar a aplicação (considerando que o container runtime já está instalado no sistema do usuário).
+
+## Prazo de Entrega:
+
+As entregas serão consideradas até as 23h59 do dia 27/08/2023. Será considerado o último commit antes do prazo de entrega.
