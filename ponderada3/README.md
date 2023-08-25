@@ -36,8 +36,12 @@ O ambiente de desenvolvimento deve ser documentado, assim como o ambiente de pro
 
 ## Instruções:
 
-***TODO***
+A entrega do projeto deve ser realizada dentro de um repositório público do Github do estudante. Ao entregar a atividade no sistema da instituição, o estudante deve colocar o link para seu repositório.
+
+O arquivo README do repositório deve conter as informações do estudante, o link para o Dockerhub onde a imagem está hospedada, o que foi desenvolvido (uma breve descrição de até 200 palavras) e o procedimento necessário para executar a aplicação (considerando que o container runtime já está instalado no sistema do usuário).
+
+Deve ser entregue também um video demonstrando o funcionamento do modelo deployado.
 
 ## Prazo de Entrega:
 
-***TODO***
+O prazo oficial de entrega é até o dia 01/09/2023. Entretanto, entregas serão aceitas até o dia 10/09/2023 (23h59).
