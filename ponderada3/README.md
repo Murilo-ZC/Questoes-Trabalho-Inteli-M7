@@ -32,7 +32,15 @@ O ambiente de desenvolvimento deve ser documentado, assim como o ambiente de pro
 
 ## Padrão de qualidade
 
-***TODO***
+Os pontos que serão avaliados na entrega do projeto:
+1. ***(Até 1.0 ponto)*** Construção do dockerfile: o arquivo contem todas as informações necessárias para a construção da imagem dos containers para produção;
+2. ***(Até 1.0 ponto)*** Publicação das Imagens para a API: a API foi publicada corretamente na cloud;
+3. ***(Até 1.0 ponto)*** Documentação do ambiente de desenvolvimento: documentar o ambiente de desenvolvimento (não precisa estar dockerizado), seus requisitos e como executar o projeto. Exportar os notebooks temporários que foram utilizados em seu desenvolvimento;
+4. ***(Até 1.0 ponto)*** Documentação da API e seu funcionamento;
+5. ***(Até 1.0 ponto)*** Descrever qual modelo de Machine Learning foi escolhido e justificar sua escolha: essa justificativa pode vir da comparação entre diversos modelos que foram previamente aplicados;
+6. ***(Até 1.0 ponto)*** As instruções no arquivo README foram suficientes para executar a aplicação: as instruções no arquivo README foram suficientes para executar a aplicação APENAS SEGUINDO OS PASSOS CONTIDOS NO DOCUMENTO;
+7. ***(Até 2.0 pontos)*** Treinamento do modelo;
+8. ***(Até 2.0 pontos)*** Pré-processamento dos dados;
 
 ## Instruções:
 
