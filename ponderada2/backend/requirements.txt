@@ -8,3 +8,5 @@ passlib
 pyjwt
 jose
 pydantic[email]
+
+

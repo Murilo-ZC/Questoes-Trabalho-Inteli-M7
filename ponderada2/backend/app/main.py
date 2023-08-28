@@ -6,7 +6,7 @@ from app.auth.jwt_bearer import jwtBearer
 
 from app.db import database, User, ToDo
 from app.models import ToDoSchema, UserSchema
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="FastAPI, Docker, and Postgres")
 
@@ -66,17 +66,17 @@ async def update_todo(todo: ToDoSchema):
         user_id=todo.user_id
     )
     
-@app.delete("/todo/delete", tags=["todo"], dependencies=[Depends(jwtBearer())])
-async def delete_todo(todo: ToDoSchema):
+@app.delete("/todo/delete/{id}", tags=["todo"], dependencies=[Depends(jwtBearer())])
+async def delete_todo(id: int):
     if not database.is_connected:
         await database.connect()
-    return await ToDo.objects.delete(todo=todo.id)
+    return await ToDo.objects.delete(id=id)
 
-@app.delete("/users/delete", tags=["users"], dependencies=[Depends(jwtBearer())])
-async def delete_user(user: UserSchema):
+@app.delete("/users/delete/{id}", tags=["users"], dependencies=[Depends(jwtBearer())])
+async def delete_user(id: int):
     if not database.is_connected:
         await database.connect()
-    return await User.objects.delete(user=user.id)
+    return await User.objects.delete(id=id)
 
 
 async def check_user(data:UserSchema):
@@ -103,3 +103,12 @@ async def startup():
 async def shutdown():
     if database.is_connected:
         await database.disconnect()
+
+origins = ["*"]  # Substitua pelo URL do seu frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
